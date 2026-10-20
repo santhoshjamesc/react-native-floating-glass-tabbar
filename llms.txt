@@ -1,0 +1,12 @@
+# react-native-floating-glass-tabbar
+
+> A floating, frosted-glass pill tab bar for React Native (iOS and Android). A custom `tabBar` for `@react-navigation/bottom-tabs` and expo-router's `<Tabs tabBar={...}>`. TypeScript, no runtime dependencies, core `Animated` only (no Reanimated).
+
+- Install: `npm install react-native-floating-glass-tabbar` plus peers `expo-blur react-native-svg react-native-safe-area-context`
+- Main export: `FloatingGlassTabBar`; helpers `TabBarProvider`, `useTabBarScrollHandler`, `useTabBarClearance`; built-in icons
+- Features: blur glass pill, spring-animated active indicator, label modes (`none` | `below` | `active`), collapse on scroll, badges, RTL, accessibility, fully themeable
+
+## Docs
+- [README](https://github.com/santhoshjamesc/react-native-floating-glass-tabbar/blob/main/README.md): install, usage for expo-router and React Navigation, full props/theme reference
+- [Example app](https://github.com/santhoshjamesc/react-native-floating-glass-tabbar/tree/main/example): expo-router demo with five presets
+- [AGENTS.md](https://github.com/santhoshjamesc/react-native-floating-glass-tabbar/blob/main/AGENTS.md): repo layout and contributor rules
